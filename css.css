@@ -93,16 +93,16 @@ min-height: 518px;padding-top:inherit;}
 
 article{padding-top: 105px;}
 
-#art2{    overflow: hidden;padding-bottom: 60px;
+#art2{    overflow: hidden;padding-bottom: 60px;background-color: #00ff668c
     /*margin-top: 50px;*/
    
     }
-#art3{margin-top: 50px;    padding-bottom:198px;
+#art3{margin-top: 50px;    padding-bottom:198px;background-color:#5757847a
    /* margin-top: 50px;*/
 
     }
 #art4{    /*margin-top: 50px;*/
-   display:inline-grid;}
+   overflow: hidden;}
    
    
 #art4 li{float: none;}
@@ -135,5 +135,21 @@ p{border-style: groove;overflow: inherit;padding-top: 20px;
 #vantagens{overflow: -webkit-paged-x;line-height: 1.4;}
 #art5{text-align: center;}
 #art2 p {line-height: 1.4;}
-
+#art4 section {    width: 45%;
+    float: left;background-color:#d8ff005c
+    }
     
+#art4 section:nth-child(even) {float: right;}
+
+@media (max-width: 1000px)
+{
+    
+    #image2{
+        float:none;
+        max-width: 100%;
+        width: auto;
+        }
+    
+    
+    
+}
