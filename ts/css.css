@@ -1,0 +1,207 @@
+button {
+    background-color: #0089ff;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    clear: right;
+    float: right;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #0089ff; 
+    border: none;
+}
+
+body{background-color:#00d0ffa6;
+}
+html{font-family: 'Cuprum', sans-serif;}
+#header{
+    top:0px;
+    position: fixed;
+    float: left;
+    list-style-type: none;
+}
+
+ul a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float: left;
+    
+    
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#header img{
+    width: 6%;
+
+}
+#header {background-color: #0089ffc7;
+right: 0;
+left:0;
+    padding-right: 47px;
+    right: 0;left:0;}
+#win{float: left;margin-left: 50px;}
+#logo{float: left}
+#barra{float: left;
+    float: right;}
+#art1{background-image: url("imagens html/imagem 1.jpg");
+background-repeat:no-repeat;
+    margin-top: 105px;
+min-height: 518px;padding-top:inherit;overflow: hidden;}
+
+#ts{    width: 35%;
+    float: right;
+    line-height: 1.6;
+    margin-top: 95px;
+    font-size:large;margin-right:60px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+p{background-color: #80808052}
+#texto{
+    margin-left: 249px;
+    font-size:xx-large
+    ;
+}
+
+article{padding-top: 105px;}
+
+#art2{    overflow: hidden;padding-bottom: 60px;background-color: #00ff668c
+    /*margin-top: 50px;*/
+   
+    }
+#art3{margin-top: 50px;    padding-bottom:198px;background-color:#847a57;
+   /* margin-top: 50px;*/
+
+    }
+#art4{    /*margin-top: 50px;*/
+   overflow: hidden;}
+   
+   
+#art4 li{float: none;}
+#image2{float:left;width: 41%;
+    margin-right: 9px;
+}
+#image1{width: 41%;
+float: right;
+    margin-left: 9px;
+}
+p{border-style: groove;overflow: inherit;padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;}
+#botao1:hover{
+    background-color: #0089ff; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);float: right;
+}
+#vantagens{overflow: -webkit-paged-x;line-height: 1.5;}
+#art5{text-align: center;}
+#art2 p {line-height: 1.4;}
+#art4 section {    width: 45%;
+    float: left;background-color:#d8ff005c
+    }
+    
+#art4 section:nth-child(even) {float: right;}
+
+@media (max-width: 1239px)
+{
+    
+    #image2{
+        float:none;
+        max-width: 100%;
+        width: auto;
+        }
+    #image1{ 
+        max-width: 100%;
+        width: auto;}
+
+    #ts{float:none;width:auto;margin-right: 0px;margin-left: 684px }
+  section{line-height: 1.6}
+  #art1{font-size:none;
+  }
+  #texto{margin-left:1px}
+  #header{padding-right: 1px; }
+  
+}
+@media (max-width: 802px)
+{
+    #barra{padding-left:0px;float:left;}
+}
+@media (max-width: 999px)
+{
+    #ts{margin-top:404px;margin-left: 0px}
+}
+@media (max-width:770px)
+{
+    #win{
+        margin-left: 0px;
+    }
+}
+@media (max-width:1007px)
+{
+    #vantagens{overflow: inherit;
+        
+    }
+}
+@media (max-width:776px)
+{
+    #imagem1{float: left}
+}
+@media (max-width:705px)
+{
+    #header img{width:15%;}
+}
+@media screen and (max-width: 425px)
+{
+    #barra{float:none;clear:left}
+    #barra li{float:none;}
+    #win{float:none;}
+    #art4 section {width:fit-content;}
+    #barra a {float:none;}
+    #header {position:absolute;}
+    #art1{margin-top: 264px;
+}
+}
+
+
+    
